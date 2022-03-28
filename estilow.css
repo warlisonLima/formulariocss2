@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Titillium+Web & display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('_fonts/bubblegum-sans-regular.otf');
+}
+
+form{
+   margin: 0 auto;
+   width: 350px;
+   padding: 2em;
+   border: 3px solid blue;
+   border-radius: 2em;
+   background-color: antiquewhite;
+   text-align: center;
+}
+
+ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+form li{
+   margin-top:top;
+   height: 20px;
+}
+
+label{
+   display: inline-block;
+   width: 150px;
+   text-align: right;
+}
+
+input, textarea{
+   font: 1em sans-serif;
+   width: 100px;
+   box-sizing: border-box;
+   border: 1px solid red;
+}
+
+textarea{
+   vertical-align: top;
+   height: 5em;
+}
+
+
+h1{
+   font-size: 30px;
+   color: blue;
+}
+form{
+   font-size: 12px;
+}
+
+input[type=submit]{
+   margin-left: 40px;
+   margin-bottom: 1em;
+}
+
+input[type=submit]{
+  border: none;
+  border-radius: 50px;
+  padding: 15px 15px;
+  outline: none;
+  background-color:rgb(224, 59, 59);
+  color: rgb(17, 19, 18);
+  font-size: 15px;
+  box-shadow: 0px 10px #999;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: chocolate;
+}
+
+input[type=submit]:active{
+  background-color: black;
+  background-color:rgb(70, 59, 224);
+  transform: translateY(4px);
+  color: white;
+  font-size: 10px;
+}
